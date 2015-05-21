@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		678501A51B0CC2CF00CCD780 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 678501A41B0CC2CF00CCD780 /* main.m */; };
+		678501A81B0CC2CF00CCD780 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 678501A71B0CC2CF00CCD780 /* AppDelegate.m */; };
+		678501AB1B0CC2CF00CCD780 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678501AA1B0CC2CF00CCD780 /* ViewController.m */; };
+		678501AE1B0CC2CF00CCD780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 678501AC1B0CC2CF00CCD780 /* Main.storyboard */; };
+		678501B01B0CC2CF00CCD780 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 678501AF1B0CC2CF00CCD780 /* Images.xcassets */; };
+		678501B31B0CC2CF00CCD780 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 678501B11B0CC2CF00CCD780 /* LaunchScreen.xib */; };
+		678501BF1B0CC2CF00CCD780 /* TesteTransicaoTelasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 678501BE1B0CC2CF00CCD780 /* TesteTransicaoTelasTests.m */; };
+		678501CD1B0CCBB700CCD780 /* TextoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678501CC1B0CCBB700CCD780 /* TextoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		678501B91B0CC2CF00CCD780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 678501971B0CC2CF00CCD780 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6785019E1B0CC2CF00CCD780;
+			remoteInfo = TesteTransicaoTelas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6785019F1B0CC2CF00CCD780 /* TesteTransicaoTelas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteTransicaoTelas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		678501A31B0CC2CF00CCD780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		678501A41B0CC2CF00CCD780 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		678501A61B0CC2CF00CCD780 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		678501A71B0CC2CF00CCD780 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		678501A91B0CC2CF00CCD780 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		678501AA1B0CC2CF00CCD780 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		678501AD1B0CC2CF00CCD780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		678501AF1B0CC2CF00CCD780 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		678501B21B0CC2CF00CCD780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		678501B81B0CC2CF00CCD780 /* TesteTransicaoTelasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesteTransicaoTelasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		678501BD1B0CC2CF00CCD780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		678501BE1B0CC2CF00CCD780 /* TesteTransicaoTelasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TesteTransicaoTelasTests.m; sourceTree = "<group>"; };
+		678501CB1B0CCBB700CCD780 /* TextoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextoViewController.h; sourceTree = "<group>"; };
+		678501CC1B0CCBB700CCD780 /* TextoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6785019C1B0CC2CF00CCD780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678501B51B0CC2CF00CCD780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		678501961B0CC2CF00CCD780 = {
+			isa = PBXGroup;
+			children = (
+				678501A11B0CC2CF00CCD780 /* TesteTransicaoTelas */,
+				678501BB1B0CC2CF00CCD780 /* TesteTransicaoTelasTests */,
+				678501A01B0CC2CF00CCD780 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		678501A01B0CC2CF00CCD780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6785019F1B0CC2CF00CCD780 /* TesteTransicaoTelas.app */,
+				678501B81B0CC2CF00CCD780 /* TesteTransicaoTelasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		678501A11B0CC2CF00CCD780 /* TesteTransicaoTelas */ = {
+			isa = PBXGroup;
+			children = (
+				678501A61B0CC2CF00CCD780 /* AppDelegate.h */,
+				678501A71B0CC2CF00CCD780 /* AppDelegate.m */,
+				678501A91B0CC2CF00CCD780 /* ViewController.h */,
+				678501AA1B0CC2CF00CCD780 /* ViewController.m */,
+				678501AC1B0CC2CF00CCD780 /* Main.storyboard */,
+				678501CB1B0CCBB700CCD780 /* TextoViewController.h */,
+				678501CC1B0CCBB700CCD780 /* TextoViewController.m */,
+				678501AF1B0CC2CF00CCD780 /* Images.xcassets */,
+				678501B11B0CC2CF00CCD780 /* LaunchScreen.xib */,
+				678501A21B0CC2CF00CCD780 /* Supporting Files */,
+			);
+			path = TesteTransicaoTelas;
+			sourceTree = "<group>";
+		};
+		678501A21B0CC2CF00CCD780 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				678501A31B0CC2CF00CCD780 /* Info.plist */,
+				678501A41B0CC2CF00CCD780 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		678501BB1B0CC2CF00CCD780 /* TesteTransicaoTelasTests */ = {
+			isa = PBXGroup;
+			children = (
+				678501BE1B0CC2CF00CCD780 /* TesteTransicaoTelasTests.m */,
+				678501BC1B0CC2CF00CCD780 /* Supporting Files */,
+			);
+			path = TesteTransicaoTelasTests;
+			sourceTree = "<group>";
+		};
+		678501BC1B0CC2CF00CCD780 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				678501BD1B0CC2CF00CCD780 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6785019E1B0CC2CF00CCD780 /* TesteTransicaoTelas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678501C21B0CC2CF00CCD780 /* Build configuration list for PBXNativeTarget "TesteTransicaoTelas" */;
+			buildPhases = (
+				6785019B1B0CC2CF00CCD780 /* Sources */,
+				6785019C1B0CC2CF00CCD780 /* Frameworks */,
+				6785019D1B0CC2CF00CCD780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TesteTransicaoTelas;
+			productName = TesteTransicaoTelas;
+			productReference = 6785019F1B0CC2CF00CCD780 /* TesteTransicaoTelas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		678501B71B0CC2CF00CCD780 /* TesteTransicaoTelasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678501C51B0CC2CF00CCD780 /* Build configuration list for PBXNativeTarget "TesteTransicaoTelasTests" */;
+			buildPhases = (
+				678501B41B0CC2CF00CCD780 /* Sources */,
+				678501B51B0CC2CF00CCD780 /* Frameworks */,
+				678501B61B0CC2CF00CCD780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				678501BA1B0CC2CF00CCD780 /* PBXTargetDependency */,
+			);
+			name = TesteTransicaoTelasTests;
+			productName = TesteTransicaoTelasTests;
+			productReference = 678501B81B0CC2CF00CCD780 /* TesteTransicaoTelasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		678501971B0CC2CF00CCD780 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Bruno Barbosa";
+				TargetAttributes = {
+					6785019E1B0CC2CF00CCD780 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					678501B71B0CC2CF00CCD780 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 6785019E1B0CC2CF00CCD780;
+					};
+				};
+			};
+			buildConfigurationList = 6785019A1B0CC2CF00CCD780 /* Build configuration list for PBXProject "TesteTransicaoTelas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 678501961B0CC2CF00CCD780;
+			productRefGroup = 678501A01B0CC2CF00CCD780 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6785019E1B0CC2CF00CCD780 /* TesteTransicaoTelas */,
+				678501B71B0CC2CF00CCD780 /* TesteTransicaoTelasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6785019D1B0CC2CF00CCD780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678501AE1B0CC2CF00CCD780 /* Main.storyboard in Resources */,
+				678501B31B0CC2CF00CCD780 /* LaunchScreen.xib in Resources */,
+				678501B01B0CC2CF00CCD780 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678501B61B0CC2CF00CCD780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6785019B1B0CC2CF00CCD780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678501AB1B0CC2CF00CCD780 /* ViewController.m in Sources */,
+				678501A81B0CC2CF00CCD780 /* AppDelegate.m in Sources */,
+				678501A51B0CC2CF00CCD780 /* main.m in Sources */,
+				678501CD1B0CCBB700CCD780 /* TextoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678501B41B0CC2CF00CCD780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678501BF1B0CC2CF00CCD780 /* TesteTransicaoTelasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		678501BA1B0CC2CF00CCD780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6785019E1B0CC2CF00CCD780 /* TesteTransicaoTelas */;
+			targetProxy = 678501B91B0CC2CF00CCD780 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		678501AC1B0CC2CF00CCD780 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				678501AD1B0CC2CF00CCD780 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		678501B11B0CC2CF00CCD780 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				678501B21B0CC2CF00CCD780 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		678501C01B0CC2CF00CCD780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		678501C11B0CC2CF00CCD780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		678501C31B0CC2CF00CCD780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TesteTransicaoTelas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		678501C41B0CC2CF00CCD780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TesteTransicaoTelas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		678501C61B0CC2CF00CCD780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TesteTransicaoTelasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesteTransicaoTelas.app/TesteTransicaoTelas";
+			};
+			name = Debug;
+		};
+		678501C71B0CC2CF00CCD780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TesteTransicaoTelasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesteTransicaoTelas.app/TesteTransicaoTelas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6785019A1B0CC2CF00CCD780 /* Build configuration list for PBXProject "TesteTransicaoTelas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678501C01B0CC2CF00CCD780 /* Debug */,
+				678501C11B0CC2CF00CCD780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678501C21B0CC2CF00CCD780 /* Build configuration list for PBXNativeTarget "TesteTransicaoTelas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678501C31B0CC2CF00CCD780 /* Debug */,
+				678501C41B0CC2CF00CCD780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		678501C51B0CC2CF00CCD780 /* Build configuration list for PBXNativeTarget "TesteTransicaoTelasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678501C61B0CC2CF00CCD780 /* Debug */,
+				678501C71B0CC2CF00CCD780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 678501971B0CC2CF00CCD780 /* Project object */;
+}
